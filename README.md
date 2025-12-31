@@ -63,9 +63,9 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Verified real-time log generation
 
 ![log Created](screenshots/logs.png)
-<br>
+# log success
 ![log success Created](screenshots/logss.png)
-<br>
+# log failed 
 ![log failed Created](screenshots/logf.png)
 
 ---
@@ -78,14 +78,10 @@ A shell script was created to:
 
 ## 📂 Script:
 #!/bin/bash
-
 LOGFILE="/home/ec2-user/monitor.log"
 DATE=$(date)
-
 FAILED_COUNT=$(sudo journalctl | grep -i "failed" | wc -l)
-
 echo "[$DATE] Failed Login Attempts: $FAILED_COUNT" >> $LOGFILE
-
 if [ $FAILED_COUNT -gt 5 ]; then
   echo "[$DATE] ALERT: Failed SSH Login Detected" >> $LOGFILE
 fi
@@ -96,8 +92,11 @@ fi
 - Scheduled the monitoring script using `crontab`
 - Enabled automated log monitoring at regular intervals
 
+ # cron running
  ![VPC Created](screenshots/cronrun.png)
+ # cron setup
  ![VPC Created](screenshots/cron.png)
+ # cron monitoring
  ![VPC Created](screenshots/cronn.png)
 ---
 
