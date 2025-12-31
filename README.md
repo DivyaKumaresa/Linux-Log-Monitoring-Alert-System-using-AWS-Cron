@@ -44,7 +44,7 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Attached security group allowing SSH access
 - Used key-based authentication
 
-📸 Screenshots available in `screenshots/ec2/`
+![Ec2 Created](screenshots/ec2.png)
 
 ---
 
@@ -52,7 +52,7 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Connected to EC2 using SSH key
 - Verified system information and Linux environment
 
-📸 Screenshots available in `screenshots/ssh/`
+![ssh Created](screenshots/ec2.png)
 
 ---
 
@@ -61,9 +61,9 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Analyzed failed SSH login attempts
 - Verified real-time log generation
 
-📸 Screenshots available in `screenshots/logs/`
-📸 Screenshots available in `screenshots/logss/`
-📸 Screenshots available in `screenshots/logf/`
+![log Created](screenshots/logs.png)
+![log success Created](screenshots/logss.png)
+![log failed Created](screenshots/logf.png)
 
 ---
 
@@ -93,9 +93,9 @@ fi
 - Scheduled the monitoring script using `crontab`
 - Enabled automated log monitoring at regular intervals
 
-📸 Screenshots available in `screenshots/cron/`
-📸 Screenshots available in `screenshots/cronn/`
-📸 Screenshots available in `screenshots/cronrun/`
+ ![VPC Created](screenshots/cronrun.png)
+ ![VPC Created](screenshots/cron.png)
+ ![VPC Created](screenshots/cronn.png)
 ---
 
 ## 🚨 Sample Alert Output
