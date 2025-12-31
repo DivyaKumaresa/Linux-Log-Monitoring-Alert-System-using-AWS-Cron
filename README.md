@@ -35,8 +35,7 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Attached Internet Gateway
 - Updated route table for internet access
 
-📸 Screenshots available in `screenshots/vpc/`
-
+![VPC Created](screenshots/vpc.png)
 ---
 
 ### 2. EC2 Deployment
