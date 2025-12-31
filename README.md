@@ -1,3 +1,4 @@
+
 # Linux Log Monitoring & Alert System (AWS + Linux)
 
 ## 📌 Project Overview
@@ -62,7 +63,9 @@ The system continuously monitors authentication logs to detect **failed SSH logi
 - Verified real-time log generation
 
 ![log Created](screenshots/logs.png)
+<br>
 ![log success Created](screenshots/logss.png)
+<br>
 ![log failed Created](screenshots/logf.png)
 
 ---
@@ -73,7 +76,7 @@ A shell script was created to:
 - Detect failed SSH login attempts
 - Generate alert messages
 
-📂 Script:
+## 📂 Script:
 #!/bin/bash
 
 LOGFILE="/home/ec2-user/monitor.log"
